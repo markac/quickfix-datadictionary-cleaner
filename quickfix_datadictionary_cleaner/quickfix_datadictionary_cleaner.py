@@ -78,7 +78,7 @@ def find_fields(node, referenced_field_ids):
         referenced_field_ids.add(field.get('name'))
 
 
-if __name__ == '__main__':
+def main():
     # Create the argument parser
     parser = argparse.ArgumentParser(description='Remove unreferenced fields and components from a QuickFIX data dictionary XML file')
     parser.add_argument('input_file', help='Path to the input data dictionary XML file')
@@ -89,3 +89,6 @@ if __name__ == '__main__':
 
     # Run the program
     remove_unreferenced_fields(args.input_file, args.output_file)
+
+if __name__ == '__main__':
+    main()

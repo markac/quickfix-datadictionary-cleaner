@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='quickfix_datadictionary_cleaner',
@@ -9,5 +9,8 @@ setup(
             'quickfix_datadictionary_cleaner = quickfix_datadictionary_cleaner.quickfix_datadictionary_cleaner:main'
         ]
     },
+    install_requires=[
+        'lxml'
+    ]
 )
 
