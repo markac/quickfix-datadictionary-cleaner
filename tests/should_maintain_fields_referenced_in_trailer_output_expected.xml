@@ -1,0 +1,10 @@
+<fix>
+    <trailer>
+        <field name="Field1"/>
+        <field name="Field2"/>
+    </trailer>
+    <fields>
+        <field name="Field1"/>
+        <field name="Field2"/>
+    </fields>
+</fix>

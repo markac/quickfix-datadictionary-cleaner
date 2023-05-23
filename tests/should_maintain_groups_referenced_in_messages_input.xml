@@ -1,0 +1,34 @@
+<fix>
+    <messages>
+        <message name="Message1">
+            <field name="Field1"/>
+            <group name="Group1">
+                <field name="Field2"/>
+                <group name="Group2">
+                    <field name="Field4"/>
+                </group>
+            </group>
+        </message>
+        <message name="Message2">
+            <field name="Field5"/>
+            <group name="Group3">
+                <field name="Field6"/>
+            </group>
+            <group name="Group2">
+                <field name="Field4"/>
+            </group>
+        </message>
+    </messages>
+    <fields>
+        <field name="Field1"/>
+        <field name="Field2"/>
+        <field name="FieldShouldBeRemoved"/>
+        <field name="Field4"/>
+        <field name="Field5"/>
+        <field name="Field6"/>
+        <field name="Group1"/>
+        <field name="Group2"/>
+        <field name="Group3"/>
+        <field name="GroupShouldBeRemoved"/>
+    </fields>
+</fix>

@@ -1,0 +1,19 @@
+<fix>
+    <messages>
+        <message name="Message1">
+            <field name="Field1"/>
+            <field name="Field2"/>
+        </message>
+
+        <message name="Message2">
+            <field name="Field4"/>
+            <field name="Field5"/>
+        </message>
+    </messages>
+    <fields>
+        <field name="Field1"/>
+        <field name="Field2"/>
+        <field name="Field4"/>
+        <field name="Field5"/>
+    </fields>
+</fix>

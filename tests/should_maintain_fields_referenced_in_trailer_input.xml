@@ -1,0 +1,11 @@
+<fix>
+    <trailer>
+        <field name="Field1"/>
+        <field name="Field2"/>
+    </trailer>
+    <fields>
+        <field name="Field1"/>
+        <field name="Field2"/>
+        <field name="FieldShouldBeRemoved"/>
+    </fields>
+</fix>

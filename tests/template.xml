@@ -1,0 +1,33 @@
+<fix>
+    <header>
+
+    </header>
+    <tailer>
+        <field name="FieldTailer"/>
+    </tailer>
+    <messages>
+        <message name="Message1">
+            <field name="Field1"/>
+        </message>
+        <message name="Message2">
+            <field name="Field2"/>
+        </message>
+        <component name="Component1"/>
+    </messages>
+    <components>
+        <component name="Component1">
+            <field name="Field3"/>
+        </component>
+        <component name="Component2">
+            <field name="Field5"/>
+        </component>
+    </components>
+    <fields>
+        <field name="Field1"/>
+        <field name="Field2"/>
+        <field name="Field3"/>
+        <field name="Field4"/>
+        <field name="Field5"/>
+        <field name="FieldTailer"/>
+    </fields>
+</fix>

@@ -1,0 +1,18 @@
+<fix>
+    <header>
+        <field name="Field1"/>
+        <group name="Group1">
+            <field name="Field2"/>
+            <group name="Group2">
+                <field name="Field4"/>
+            </group>
+        </group>
+    </header>
+    <fields>
+        <field name="Field1"/>
+        <field name="Field2"/>
+        <field name="Field4"/>
+        <field name="Group1"/>
+        <field name="Group2"/>
+    </fields>
+</fix>
