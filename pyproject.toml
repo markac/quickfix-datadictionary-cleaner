@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quickfix_datadictionary_cleaner"
+authors = [
+    {name = "Mark Crowther"},
+]
+description = "Removes orphaned fields and componenets from QuickFIX data dictionaries."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "GPL-3.0-only"}
+version = "0.1"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    'lxml'
+]
+
+[project.scripts]
+quickfix_datadictionary_cleaner = "quickfix_datadictionary_cleaner.__main__:main"

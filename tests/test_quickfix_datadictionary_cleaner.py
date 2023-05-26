@@ -3,7 +3,7 @@ import os
 from xmldiff import main, formatting
 import xml.etree.ElementTree as ET
 from parameterized import parameterized
-from quickfix_datadictionary_cleaner.quickfix_datadictionary_cleaner import remove_unreferenced_fields
+from quickfix_datadictionary_cleaner.__main__ import remove_unreferenced_fields
 
 
 class TestRemoveUnreferencedFields(unittest.TestCase):
