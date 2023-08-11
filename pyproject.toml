@@ -9,7 +9,7 @@ authors = [
 ]
 description = "Removes orphaned fields and componenets from QuickFIX data dictionaries."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 license = {text = "GPL-3.0-only"}
 version = "0.1"
 classifiers = [
